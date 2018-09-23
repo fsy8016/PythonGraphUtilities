@@ -14,5 +14,3 @@ A Node cannot path to itself.
 A Node name must be a string of some sort, no integers.
 
 -Utils and Agents are essential includes for the algorithms and were not written by me. All of the work was focused on Search(.py,.txt,.html) and a little bit on doctests.
-
-A COPY OF THIS IS IN THE WRITTE-UP.
