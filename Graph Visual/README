@@ -1,0 +1,12 @@
+Tree.py and Node.py contain the classes for the data structures used to run the visualization. Run.py is essntially just a main function that also has
+elements of customizability to it.
+
+USAGE:
+Execute run.py and follow the instructions.
+
+NOTES: it will crash if you don't input 0 or 1 into the terminal.
+DO NOT INPUT "1" or "2" or else it will crash as well. Just input 1 or 2.
+
+The tree can be edited by going into run.py and changing the initialization settings.
+Comments for the usage of that code can be found in that file.
+Something to note is that there is also an implementation for bolding in the code but will not work with all terminals.

@@ -1,0 +1,18 @@
+Notes on the code:
+Most of the code was referenced from http://aima.cs.berkeley.edu/python/.
+To run the analysis for time type:
+python doctests.py search.py 
+***Testing was done on a virtual machine so sometimes results were skewed by outside factors (latency time, server hiccups). For this reason, if there are statistical outliers in the results, it can
+***probably be attributed to outside forces.
+Search.py contains the actual algorithm and usable function calls. It also contains the initialization for the graph, which is called Romania.
+doctests.py is a wrapper testing method that calls things from search.txt and executes the proper algorithms to go with it. In order to run the different algorithms we call:
+[node.state for node in search_algorithm_here(graph_here).path()] 
+
+ASSUMPTIONS MADE FOR THIS CODE TO WORK:
+All path costs must be positive or zero.
+A Node cannot path to itself.
+A Node name must be a string of some sort, no integers.
+
+-Utils and Agents are essential includes for the algorithms and were not written by me. All of the work was focused on Search(.py,.txt,.html) and a little bit on doctests.
+
+A COPY OF THIS IS IN THE WRITTE-UP.

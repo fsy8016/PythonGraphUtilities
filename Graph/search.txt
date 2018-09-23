@@ -1,0 +1,25 @@
+
+>>> ab = GraphProblem('B', 'Z', romania)
+
+
+### demo
+>>> ab = GraphProblem('B', 'Z', romania)
+
+>>> a=test()
+
+>>> [node.state for node in astar_search(ab).path()] 
+['Z', 'A', 'S', 'R', 'P', 'B']
+
+>>> difference_ASTAR(a)
+
+>>> a=test()
+
+>>> [node.state for node in iterative_deepening_search(ab).path()] 
+['Z', 'A', 'S', 'R', 'P', 'B']
+
+>>> difference_ID(a)
+
+
+
+
+
